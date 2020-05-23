@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+
+    <ImageView
+        android:id="@+id/imgbook"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_advance"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/image100" />
+
+    <TextView
+        android:id="@+id/txtbookname"
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="7dp"
+        android:layout_toEndOf="@+id/imgbook" />
+
+    <TextView
+        android:id="@+id/txtNhaSB"
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/txtbookname"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="6dp"
+        android:layout_toEndOf="@+id/imgbook" />
+</RelativeLayout>
