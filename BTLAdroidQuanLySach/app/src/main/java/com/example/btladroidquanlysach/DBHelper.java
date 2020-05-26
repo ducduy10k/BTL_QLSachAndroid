@@ -97,6 +97,20 @@ public class DBHelper extends SQLiteOpenHelper {
         statement.bindBlob(1,Hinh);
         statement.executeUpdateDelete();
     }
+    public  void Insert_Book(String IdBook,String title,String publishing,String author,int price,byte[] Anh){
+        myDB = getWritableDatabase();
+        String sql = "INSERT INTO  tblBook1 VALUES (?,?,?,?,?,?)";
+        SQLiteStatement statement = myDB.compileStatement(sql);
+        statement.clearBindings();
+        statement.bindString(1,IdBook);
+        statement.bindString(2,title);
+        statement.bindString(3,publishing);
+        statement.bindString(4,author);
+        statement.bindDouble(5,price);
+        statement.bindBlob(6,Anh);
+        statement.executeInsert();
+    }
+
 
 
 }

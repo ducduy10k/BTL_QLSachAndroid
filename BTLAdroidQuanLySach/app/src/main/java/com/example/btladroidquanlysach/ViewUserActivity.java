@@ -64,7 +64,7 @@ public class ViewUserActivity extends AppCompatActivity {
         phone = findViewById(R.id.txtPhone);
         email = findViewById(R.id.txtEmail);
         imageView = findViewById(R.id.imgViewAcc1);
-        btnback = findViewById(R.id.btnupdate);
+        btnback = findViewById(R.id.btnupCreate);
 
 
     }

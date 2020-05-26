@@ -1,60 +1,60 @@
 package com.example.btladroidquanlysach;
 
 public class BookClass  {
-    private String ID;
-    private String TenSach;
-    private String NgaySB;
-    private  String MaNSB;
-    private  String MaTL;
+    private String idbook;
+    private String title;
+    private String publishing;
+    private  String author;
+    private  String price;
     private byte[] Anh;
 
-    public BookClass(String ID, String tenSach, String ngaySB, String maNSB, String maTL, byte[] anh) {
-        this.ID = ID;
-        TenSach = tenSach;
-        NgaySB = ngaySB;
-        MaNSB = maNSB;
-        MaTL = maTL;
+    public BookClass(String idbook, String title, String publishing, String author, String price, byte[] anh) {
+        this.idbook = idbook;
+        this.title = title;
+        this.publishing = publishing;
+        this.author = author;
+        this.price = price;
         Anh = anh;
     }
 
-    public String getID() {
-        return ID;
+    public String getIdbook() {
+        return idbook;
     }
 
-    public void setID(String ID) {
-        this.ID = ID;
+    public void setIdbook(String idbook) {
+        this.idbook = idbook;
     }
 
-    public String getTenSach() {
-        return TenSach;
+    public String getTitle() {
+        return title;
     }
 
-    public void setTenSach(String tenSach) {
-        TenSach = tenSach;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public String getNgaySB() {
-        return NgaySB;
+    public String getPublishing() {
+        return publishing;
     }
 
-    public void setNgaySB(String ngaySB) {
-        NgaySB = ngaySB;
+    public void setPublishing(String publishing) {
+        this.publishing = publishing;
     }
 
-    public String getMaNSB() {
-        return MaNSB;
+    public String getAuthor() {
+        return author;
     }
 
-    public void setMaNSB(String maNSB) {
-        MaNSB = maNSB;
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
-    public String getMaTL() {
-        return MaTL;
+    public String getPrice() {
+        return price;
     }
 
-    public void setMaTL(String maTL) {
-        MaTL = maTL;
+    public void setPrice(String price) {
+        this.price = price;
     }
 
     public byte[] getAnh() {
@@ -62,6 +62,12 @@ public class BookClass  {
     }
 
     public void setAnh(byte[] anh) {
+        Anh = anh;
+    }
+
+    public BookClass(String idbook, String author, byte[] anh) {
+        this.idbook = idbook;
+        this.author = author;
         Anh = anh;
     }
 }

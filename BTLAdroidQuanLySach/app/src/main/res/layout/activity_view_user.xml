@@ -14,7 +14,6 @@
         android:layout_marginEnd="15dp"
         android:background="@drawable/edit_text_input"
         android:ems="10"
-        android:hint="Enter phone number"
         android:inputType="number"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,7 +35,6 @@
         android:layout_marginEnd="15dp"
         android:background="@drawable/edit_text_input"
         android:ems="10"
-        android:hint="Enter your email address"
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,7 +57,6 @@
         android:background="@drawable/edit_text_input"
         android:drawableTop="@drawable/edit_text_input"
         android:ems="10"
-        android:hint="Enter Password"
         android:inputType="textPersonName"
         android:textColorHighlight="#FFFFFF"
         android:textCursorDrawable="@drawable/edit_text_input"
@@ -85,7 +82,6 @@
         android:background="@drawable/edit_text_input"
         android:ems="10"
         android:focusable="auto"
-        android:hint="Enter User Name"
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -128,7 +124,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnupdate"
+        android:id="@+id/btnupCreate"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
@@ -159,7 +155,6 @@
         android:layout_marginEnd="15dp"
         android:background="@drawable/edit_text_input"
         android:ems="10"
-        android:hint="Enter Full Name"
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"

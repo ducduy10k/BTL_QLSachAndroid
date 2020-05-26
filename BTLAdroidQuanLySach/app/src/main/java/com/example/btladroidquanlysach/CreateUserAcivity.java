@@ -118,8 +118,8 @@ public class CreateUserAcivity extends AppCompatActivity {
         fullname = findViewById(R.id.editFullName);
         email = findViewById(R.id.editEmail);
         phone = findViewById(R.id.editPhone);
-        btncreate=findViewById(R.id.btnupdate);
-        imageView = findViewById(R.id.imgViewAcc);
+        btncreate=findViewById(R.id.btnupCreate);
+        imageView = findViewById(R.id.imgViewBook);
         ibtnCamera=findViewById(R.id.ibtnCamera);
         ibtnFolder=findViewById(R.id.ibtnForder);
 

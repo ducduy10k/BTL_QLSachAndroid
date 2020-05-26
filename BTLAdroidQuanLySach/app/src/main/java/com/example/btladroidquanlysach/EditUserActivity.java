@@ -134,7 +134,7 @@ public class EditUserActivity extends AppCompatActivity {
         imgA= findViewById(R.id.imgViewAcc1);
         ibtnCamera =findViewById(R.id.ibtnCamera1);
         ibtnFolder = findViewById(R.id.ibtnForder1);
-        update=findViewById(R.id.btnupdate);
+        update=findViewById(R.id.btnupCreate);
     }
 
 }
